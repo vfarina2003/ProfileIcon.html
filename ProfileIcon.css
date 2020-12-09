@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #282828;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 230px;
+  height: 230px;
+  background: url(https://wallpapercave.com/wp/wp7676088.jpg);
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+.profile_status {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  background-color: #ccc;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.profile_status.profile_status-active {
+  background-color: lime;
+  box-shadow: 0 0 10px rgba(0, 255, 10, .5);
+}
